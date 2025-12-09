@@ -100,3 +100,10 @@ The arguments are:
 3. the third argument is the child, which is there to hold for child elements.
 
 **NOTE:** It is best practise to put the `Consumer` widgets as deep in the tree as possible. If you don't want to rebuild large parts of the UI.
+
+## Important commands i most use
+
+- `flutter build apk --split-per-abi` - builds application apk for downloading for the users
+- `flutter clean` - whenever there seems to be an error somewhere, use this tool to actually restart a fresh
+- inside `android` directory run `./gradlew assembleRelease --info` to see what is behind the scene while flutter build is doing, otherwise if you are patient enough this may not come in usefull
+- `flutter install` actually installs the generated apks in the target device.
